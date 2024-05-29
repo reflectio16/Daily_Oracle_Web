@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+margin: 0;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+header {
+    background-color: #00008b;
+    
+}
+
+h1 {
+padding-block: 2rem;
+text-align: center;
+color: #ffff;
+
+}
+
+body {
+    background-color: #00ffff;
+}
+
+button {
+	display: block;
+	width: 350px;
+	height: 350px;
+	margin: 50px auto 0;
+	border-radius: 50%;
+    background: radial-gradient(circle at 65% 15%, #ffffff 1px, #00ffff 3%, #00008b 60%, #00ffff 100%);  
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+#messageOutput {
+    text-align: center;
+    margin-top: 3rem;
+    line-height:3rem;
+    
+}
+
